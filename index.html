@@ -3,13 +3,30 @@
 <link rel="stylesheet" href="style.css">
 <head>
     <title>Houser</title>
+    <meta content="">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+  $(function() {
+    $("#visible").click(function() {
+      $('#invisible').toggleClass("show");
+       });
+    });
+
+  
+  </script>
 <style>
+
+</style>
+
+<style>
+
+
  .btn{
             
             padding: 12px 40px;
             font-size: 16px;
             background-color: white;
-            color:blue;
+            color:rgb(0, 179, 255);
             border-radius: 14px;
             cursor: pointer;
             outline: none;
@@ -25,41 +42,124 @@
         }
 </style>
    
+<style>
 
-<!-- Load an icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="navbar">
- 
-         
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-    <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-    <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-    <a href="#"><i class="fa fa-fw fa-"></i> Login</a>
-  </div>
+    
+  .LogoB {
+    z-index: 4;
+	margin-right: 1210px;
+	margin-top: 82px;
+	margin-bottom: 0px;
+	height: 70%;
 
- 
+	border-radius: 10000px;
+  }
+    
+
+    
+  div {
+      outline: transparent;
+  }
+    
+  .dropbtn .LogoB{
+      transition: 2s;
+      background-image:url(https://images.aftonbladet-cdn.se/v2/images/2632dce7-c0d0-421d-b522-10ab3917dfe4?fit=crop&format=auto&h=997&q=50&w=1900&s=70d3219c9e8f9ed215642fa6ca654baea379df45);
+        }
+</style>
+
+
  </head>
 
 <body>
+
+
+
+
+
+   
+
+
+
+
+
+   <img src="LogoA.png" class="LOGO"/>
+     
+
  
 
 
+
+
 <div class="container">
-  <div class="item-menu2"><img src="Buy.png"/><a href="documentation.html"><button class="btn warning2">Browse Homes</button></a></div>
-  <div class="item-menu3"><img src="Rent.png"/><a href="about.html"><button class="btn warning3">Find Rentals</button></a></div>
-  <div class="item-menu4"><img src="Sell.png"/><a href="contacts.html"><button class="btn warning4">See Your Options</button></a></div>
+
+  <div class="item-starter2"> 
+
+  
+    <img src="LogoB.png" class="LogoB"> 
+    <div class="dropdown">
+      <div class="wrapper">
+
+        <a href="#" class="nav">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+       </a>
+      </div>
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="documentation.html">Problem</a>
+        <a href="#">Kontakta oss</a>
+        <a href="#">Om oss</a>
+      </div>
+      
+    </div>
+
+ </div>
 
 
-  <div class="wrapper">
-    <a href="#" class="nav">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
-           </a>
-        </div>
+  <div class="item-menu2"><img src="Buy.png" class="starter-page-pic1"/><a href="products.html"><button class="btn warning2">Hitta ett hem</button></a></div>
+  <div class="item-menu3"><img src="Rent.png"class="starter-page-pic3"/><a href="about.html"><button class="btn warning3">Sök efter lägenhter</button></a></div>
+  <div class="item-menu4"><img src="Sell.png"class="starter-page-pic3"/></div>
+
+</div>
 
 
+
+
+
+<div class="itemL"><p class="leftside">Köp</p></div>
+<div class="itemM"><p class="leftside">Hyr</p></div>
+<div class="itemN"><p class="leftside">Sälj</p></div>
+
+<div class="itemÅ"><p class="leftside">Hitta ditt nästa hem att tillbringa resten av ditt liv i allt från bekvämligheten av ditt egna hem. Att hitta ett hem har aldrig varit så enkelt.</p></div>
+<div class="itemÄ"><p class="leftside">Din nästa boplats är närmare än du tror. Utforska möjligheterna och upptäck en lägenhte du kommer att älska.</p></div>
+<div class="itemÖ"><p class="leftside">Inte tillgänglig</p></div>
+
+
+<div class="box">
+  <span></span>
+</div>
+
+<button id="invisible" class="hide">Förlåt men denna funktion är tillgänglig på grund av tekniska svårighter </button>
+<button id="visible" class="show">Läs mer </button>
+
+
+
+</div>
+
+
+<script src="./slideshow.js"></script>
+
+
+
+<div class="info1"><img src="https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" class="info-img"></div>
+<div class="info2"><p class="leftside">Gmail: izzat.alnajjar.gbg22@amerikanskagymnasiet.se</p></div>
+<div class="info3"><p class="leftside">Created: 2022</p></div>
+<div class="info4"><p class="leftside">Creator: Izzat Al-Najjar</p></div>
+<div class="info5"><p class="leftside">Amount of products at the time: 12 </p></div>
+<div class="info5"><p class="leftside">Download App On: </p></div>
+<img src="App1.webp" class="app1"/>
+<img src="app2.png" class="App2"/>
  </body>
 
-</html>
 

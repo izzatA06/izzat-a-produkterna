@@ -1,701 +1,950 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
+
+
+
+
+
+
+
+
+
+
+
+ .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
 }
 
 
-  
+/* item 2-7 bestämmer utsendet och placering för produkterna i find rental (about.html)*/
+/* item 2-7 hover bestämmer utsendet för prdukterna när man pekar på dem (about.html)*/
 
 .item2 {
-box-shadow: 5px 5px 5px 2px lightgray;
-display: flex;
-justify-content: space-between;
-width: 47%;
-padding-bottom: 33%;
-margin-bottom: 6%;
-margin-left: 1.25%;
-position: relative;
-background-size: cover;
-border-radius: 27px;
-background-image: url(https://i.pinimg.com/originals/77/c4/d5/77c4d536db08d773f1aaa3d634425a14.jpg)
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: space-between;
+	width: 47%;
+	padding-bottom: 33%;
+	margin-bottom: 15%;
+	margin-left: 1.25%;
+	position: relative;
+	background-size: cover;
+	border-radius: 27px;
+	background-image: url(https://i.pinimg.com/originals/77/c4/d5/77c4d536db08d773f1aaa3d634425a14.jpg)
 }
 
 
-
-.item2:hover{
-  transition: 2s;
-  background-image: url(https://media.architecturaldigest.com/photos/57acfde0cfc37bc171ad807e/master/w_2667,h_1818,c_limit/Jenny-J-Norris-South-Orange-home-tour_20.jpg)
+.item2:hover {
+	transition: 2s;
+	background-image: url(https://media.architecturaldigest.com/photos/57acfde0cfc37bc171ad807e/master/w_2667,h_1818,c_limit/Jenny-J-Norris-South-Orange-home-tour_20.jpg)
 }
 
-.homer123.jpeg{
-  width: 35px;
+.homer123.jpeg {
+	width: 35px;
 }
 
-.item3{
-  box-shadow: 5px 5px 5px 2px lightgray;
-display: flex;
-justify-content: center;
-width: 47%;
-padding-bottom: 33%;
-background-size: cover;
-margin-bottom: 6%;
-margin-right: 1.25%;
-position: relative;
-background-size: cover;
-border-radius: 27px;
-background-image: url(https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQZUkwT6XhdDnNqAsPrZiQWWHvhpJo0cviRndWweNeFE0G6sOOa7ltzrwXSocCIsqRqAcruHZtEk-MBx_qLAJz-43yAbJAJXmEYKEMD78GRjJ3ro5x5T97jaAj0NwMiaHvO4mNGLRmwNAPE2yA0LWWV1UfQI.jpg?r=48b)
+.item3 {
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 15%;
+	margin-left: -0.2%;
+	position: relative;
+	background-size: cover;
+	border-radius: 27px;
+	background-image: url(https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQZUkwT6XhdDnNqAsPrZiQWWHvhpJo0cviRndWweNeFE0G6sOOa7ltzrwXSocCIsqRqAcruHZtEk-MBx_qLAJz-43yAbJAJXmEYKEMD78GRjJ3ro5x5T97jaAj0NwMiaHvO4mNGLRmwNAPE2yA0LWWV1UfQI.jpg?r=48b)
 }
 
-.item3:hover{
-  transition: 2s;
-  background-image: url(https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwaG91c2V8ZW58MHx8MHx8&w=1000&q=80)
+.item3:hover {
+	transition: 2s;
+	background-image: url(https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwaG91c2V8ZW58MHx8MHx8&w=1000&q=80)
 }
 
 .item4 {
-  box-shadow: 5px 5px 5px 2px lightgray;
-display: flex;
-justify-content: center;
-width: 47%;
-padding-bottom: 33%;
-background-size: cover;
-margin-bottom: 6%;
-margin-left: 1.25%;
-position: relative;
-border-radius: 27px;
-background-image: url(https://media.istockphoto.com/photos/dream-home-luxury-house-success-suburban-house-picture-id1281554848?b=1&k=20&m=1281554848&s=170667a&w=0&h=s7X81b-3hfEGTYVkFKDOG7ZDySs57Tpw_WAETXi5xnQ=)
-}
-.item4:hover{
-  transition: 2s;
-  background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?cs=srgb&dl=pexels-vecislavas-popa-1571460.jpg&fm=jpg)
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-left: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://media.istockphoto.com/photos/dream-home-luxury-house-success-suburban-house-picture-id1281554848?b=1&k=20&m=1281554848&s=170667a&w=0&h=s7X81b-3hfEGTYVkFKDOG7ZDySs57Tpw_WAETXi5xnQ=)
 }
 
-
-
-.item5 { 
-  box-shadow: 5px 5px 5px 2px lightgray;
-display: flex;
-justify-content: center;
-width: 47%;
-padding-bottom: 33%;
-background-size: cover;
-margin-bottom: 6%;
-margin-right: 1.25%;
-position: relative;
-background-size: contain;
-background-size: cover;
-border-radius: 27px;
-background-image:url(https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607) 
+.item4:hover {
+	transition: 2s;
+	background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?cs=srgb&dl=pexels-vecislavas-popa-1571460.jpg&fm=jpg)
 }
 
-.item5:hover{
-  transition: 2s;
-  background-image: url(http://cdn.home-designing.com/wp-content/uploads/2019/02/courtyard-design-2.jpg)
+
+.item5 {
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-right: 1.25%;
+	position: relative;
+	background-size: contain;
+	background-size: cover;
+	border-radius: 27px;
+	background-image: url(https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607)
+}
+
+.item5:hover {
+	transition: 2s;
+	background-image: url(http://cdn.home-designing.com/wp-content/uploads/2019/02/courtyard-design-2.jpg)
 }
 
 .item6 {
-  box-shadow: 5px 5px 5px 2px lightgray;
-display: flex;
-justify-content: center;
-width: 47%;
-padding-bottom: 33%;
-background-size: cover;
-margin-bottom: 6%;
-margin-left: 1.25%;
-position: relative;
-border-radius: 27px;
-background-image: url(https://borror.com/wp-content/uploads/2019/01/Kitchen_B.jpg)
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-left: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://borror.com/wp-content/uploads/2019/01/Kitchen_B.jpg)
 }
 
 
-.item6:hover{
-  transition: 2s;
-  background-image: url(https://thumbs.dreamstime.com/b/apartment-building-exterior-balconies-modern-221258884.jpg)
+.item6:hover {
+	transition: 2s;
+	background-image: url(https://thumbs.dreamstime.com/b/apartment-building-exterior-balconies-modern-221258884.jpg)
 }
 
-.item7 { 
-  box-shadow: 5px 5px 5px 2px lightgray;  
-display: flex;
-justify-content: center;
-width: 47%;
-padding-bottom: 33%;
-background-size: cover;
-margin-bottom: 6%;
-margin-right: 1.25%;
-position: relative;
-border-radius: 27px;
-background-image: url(https://images.adsttc.com/media/images/5be3/3bc4/08a5/e549/e300/031a/newsletter/42449.jpg?1541618579)
+.item7 {
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-right: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://images.adsttc.com/media/images/5be3/3bc4/08a5/e549/e300/031a/newsletter/42449.jpg?1541618579)
+}
+
+.item7:hover:hover {
+
+	transition: 2s;
+	background-image: url(https://i.pinimg.com/originals/af/b1/f0/afb1f085af87d541c8760723d172cd78.jpg)
+}
+
+/* Buy/Sell (stor bokstav) bestämer utsendet för knapparna i find rent (about.html)*/
+
+.Buy {
+	margin-left: 190px;
+	transition: all .2s ease-in-out;
+	text-align: center;
+	margin-bottom: 182.6%;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 900;
+	border-radius: 15px;
+	width: 100%;
+	border-color: rgb(0, 179, 255)rgb(0, 179, 255);
+}
+
+.Buy:hover {
+	transform: scale(1.1);
+	border-color: black;
+	background-color: rgb(0, 179, 255);
+	color: white;
+	font-size: 100%;
 
 }
 
-.item7:hover:hover{
-  transform: scale(1.1); 
-  transition: 2s;
-  background-image: url(https://i.pinimg.com/originals/af/b1/f0/afb1f085af87d541c8760723d172cd78.jpg)
+.Sell {
+	margin-right: 350px;
+	transition: all .2s ease-in-out;
+	text-align: center;
+	margin-bottom: 120%;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 900;
+	border-radius: 15px;
+	width: 60%;
+	border-color: rgb(0, 179, 255)rgb(0, 179, 255);
 }
 
-.item8 {
-  background-color: unset;
-  display: flex;
-  justify-content: center;
-  width: 34%;
-  padding-bottom: 10%;
-  background-size: cover;
-  margin-bottom: 6%;
-  margin-left: 0%;
-  position: relative;
-  border-radius: 27px;
-  }
-
-  .item9 { 
-    background-color:unset;
-    display: flex;
-    justify-content: center;
-    width: 34%;
-    padding-bottom: 10%;
-    background-size: cover;
-    margin-bottom: 6%;
-    margin-right: 15%;
-    position: relative;
-   
-    border-radius: 27px;
-
-
-    }
-
-
-html, body{
-  min-height: 193%;
-  width: 98.6% ;
+.Sell:hover {
+	transform: scale(1.1);
+	border-color: black;
+	background: rgb(0, 179, 255);
+	color: white;
+	border-color: black;
+	font-size: 100%;
 }
+
+
+
+
+/* item Å,Ä,Ö är conatinersen där beskrivningarna till de anndra conatinerna i index.html finns */
+
+
+.itemÅ {
+	margin-top: 250px;
+	text-align: center;
+	width: 20vw;
+	border: transparent;
+	font-size: 120%;
+	font-family: 'Times New Roman', Times, serif;
+	margin-left: 130px;
+position: absolute;
+}
+
+.itemÄ {
+	font-size: 120%;
+	text-align: center;
+	width: 20vw;
+	margin-top: 250px;
+	border: transparent;
+	margin-left: 585px;
+	font-family: 'Times New Roman', Times, serif;
+	position: absolute;
+}
+
+.itemÖ {
+	margin-top: 255px;
+	font-size: 120%;
+	text-align: center;
+	width: 20vw;
+	height: auto;
+	border: transparent;
+	margin-left: 1060px;
+	font-family: 'Times New Roman', Times, serif;
+	position: absolute;
+}
+
+
+/* L-N är containers för orden köp,hyr och sälj i index.html*/
+.itemL {
+	margin-top: -40.5%;
+	font-size: 200%;
+	text-align: center;
+	width: 20vw;
+	height: auto;
+	border-color: black;
+	border: transparent;
+	margin-left: 120px;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+
+.itemM {
+	margin-top: -5%;
+	font-size: 200%;
+	text-align: center;
+	width: 20vw;
+	border: transparent;
+	margin-left: 580px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.itemN {
+	margin-top: -4.5%;
+	font-size: 200%;
+	text-align: center;
+	width: 20vw;
+	height: auto;
+
+	border: transparent;
+	margin-left: 1070px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* 2-4 är containers utsende(index.html)*/
+
+
+.item-menu2 {
+
+	box-shadow: 5px 5px 5px 5px rgb(170, 170, 170);
+	margin-top: -1%;
+	display: flex;
+	justify-content: center;
+	background: lightgray;
+	border-radius: 25px;
+	width: 29%;
+	height: 560px;
+	margin-left: 60px;
+
+}
+
+
+.item-menu3 {
+
+	box-shadow: 5px 5px 5px 5px rgb(170, 170, 170);
+	margin-top: 4%;
+	display: flex;
+	justify-content: center;
+	background: lightgray;
+	border-radius: 25px;
+	width: 29%;
+	height: 560px;
+	margin-right: 1.25%;
+}
+
+
+.item-menu4 {
+
+	box-shadow: 5px 5px 5px 5px rgb(170, 170, 170);
+	margin-top: 0%;
+	display: flex;
+	justify-content: center;
+	background: lightgray;
+	border-radius: 25px;
+	width: 29%;
+	height: 560px;
+	margin-right: 1.25%;
+}
+
+
+.item-starter2 {
+	margin-left: 7.5%;
+	box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
+     margin: 80px;
+	display: flex;
+	justify-content: center;
+	background: lightgray;
+	border-radius: 10px;
+	width: 90%;
+
+	margin-top: -100px;
+	height: 550px;
+
+	background-image: url(https://t3.ftcdn.net/jpg/03/45/16/84/360_F_345168451_FvYYiWWbx7qcURa8pSw9gv1qprjSTOcZ.jpg)
+}
+
+
+
+ /* detta är den runda logans utseden och plasering  */
+.LogoB {
+	z-index: 4;
+	margin-left: 463px;
+	margin-top: 55px;
+	margin-bottom: 0px;
+	height: 70%;
+	width: auto;
+	border-radius: 10000px;
+    box-shadow: none;
+
+}
+
+
+/* knapparnas utsende (index.html)*/
+.warning2 {
+	border-color: rgb(0, 179, 255)rgb(0, 179, 255);
+	margin-left: -23.5%;
+	transition: all .2s ease-in-out;
+	margin-top: 34%;
+	width: 25%;
+position: absolute;
+	font-weight: 900;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 15px;
+	color: rgb(0, 179, 255);
+}
+
+.warning3 {
+	border-color: rgb(0, 179, 255)rgb(0, 179, 255);
+	margin-left: -23.5%;
+	transition: all .2s ease-in-out;
+	margin-top: 34%;
+	width: 25%;
+	position: absolute;
+	font-weight: 900;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 15px;
+	color: rgb(0, 179, 255);
+}
+
+
+
+
+/* hover utsednet för knapparna*/
+
+.warning2:hover {
+	transform: scale(1.1);
+	border-color: black;
+	background: rgb(0, 179, 255);
+	color: white;
+	border-color: black;
+	font-size: 98%;
+}
+
+
+.warning3:hover {
+	transform: scale(1.1);
+	border-color: black;
+	background: rgb(0, 179, 255);
+	color: white;
+	border-color: black;
+	font-size: 98%;
+}
+
+/* kanpparna för sälj conatinerna */
+.hide{
+display: none;
+margin-top: 400px;
+width: 300px;
+
+}
+
+.show{
+	transition: 0.2s;
+	position: relative;
+z-index: 25;
+margin-top: 445px;
+margin-left: 1050px;
+display: block;
+border-color: black;
+font-size: 110%;
+border-radius: 15px;
+height: 45px;
+width: 350px;
+border-color: rgb(0, 179, 255)rgb(0, 179, 255);
+color: rgb(0, 179, 255);
+font-family: 'Times New Roman', Times, serif;
+font-weight: 900;
+}
+
+/* sälj knappens hover useende */
+.show:hover{
+transform: scale(1.1);
+border-color: black;
+background: rgb(0, 179, 255);
+color: white;
+border-color: black;
+font-size: 98%;
+}
+
+
+
+/* utsendet och hover för knapparna i products.html*/
+.Rent {
+	border-color: rgb(0, 179, 255)rgb(0, 179, 255);
+	margin-left: 95px;
+	transition: all .2s ease-in-out;
+	margin-top: 10px;
+	width: 400px;
+
+	font-weight: 900;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 15px;
+	color: rgb(0, 179, 255);
+}
+
+.Rent:hover {
+	transform: scale(1.1);
+	border-color: black;
+	background: rgb(0, 179, 255);
+	color: white;
+	border-color: black;
+	font-size: 98%;
+}
+
+.sell {
+	border-color: rgb(0, 179, 255)rgb(0, 179, 255);
+	margin-right: 135px;
+	transition: all .2s ease-in-out;
+	margin-top: 10px;
+	width: 400px;
+
+	font-weight: 900;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 15px;
+	color: rgb(0, 179, 255);
+}
+
+
+.sell:hover {
+
+	transform: scale(1.1);
+	border-color: black;
+	background: rgb(0, 179, 255);
+	color: white;
+	border-color: black;
+	font-size: 98%;
+}
+
+/*utseende och hover effekt för knapparn i about.html */
+
+.rent {
+	margin-left: 52%;
+	transition: all .2s ease-in-out;
+	margin-bottom: 47.3%;
+	width: 250%;
+	padding-bottom: 30%;
+	font-weight: 900;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 15px;
+	border-color: rgb(0, 179, 255)rgb(0, 179, 255);
+	color: rgb(0, 179, 255);
+}
+
+.rent:hover {
+	transform: scale(1.1);
+	border-color: black;
+	background: rgb(0, 179, 255);
+	color: white;
+	border-color: black;
+	font-size: 98%;
+}
+
+
+.buy {
+	margin-left: -210%;
+	transition: all .2s ease-in-out;
+	margin-bottom: 51%;
+	width: 250%;
+	padding-bottom: 30%;
+	font-weight: 900;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 15px;
+	border-color: rgb(0, 179, 255)rgb(0, 179, 255);
+	color: rgb(0, 179, 255);
+}
+
+.buy:hover {
+	transform: scale(1.1);
+	border-color: black;
+	background: rgb(0, 179, 255);
+	color: white;
+	border-color: black;
+	font-size: 98%;
+
+}
+
+
+
+/*bildernas storelkar och plasering*/
 
 img {
-  width: 100%;
-  height: 300px;
+box-shadow: 2px 3px 2px 2px rgb(134, 134, 134);
+	border-radius: 9px;
+	background-color: lightgray;
+	width: 300px;
+	height: 235px;
+	margin-top: 21%;
+margin-left: 3%;
+}
+
+/* A-G är alla containers i products.html*/
+.itemA {
+
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-right: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://www.udr.com/globalassets/corporate/homepage/homepage_4_1274towson.jpg)
 }
 
 
-.item-menu2{
-  box-shadow: 5px 5px 5px 5px rgb(170, 170, 170);
-  margin-top: 0%;
-  display: flex;
-  justify-content: center;
-  background: lightgray;
-  border-radius: 25px;
-  width: 29%;
-  height: 550px;
-  margin-right: 1.25%;
+.itemA:hover {
 
- 
+	transition: 1.5s;
+	background-image: url(https://www.phillyaptrentals.com/wp-content/uploads/2020/12/apartment-building-what-makes-good-apartment-building-scaled.jpg)
+}
+
+.itemB {
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-right: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://townsquare.media/site/466/files/2019/01/One-Cardinal-Way-Apartments-Ballpark-Village.jpg?w=980&q=75)
+}
+
+.itemB:hover {
+	transition: 1.5s;
+	background-image: url(https://www.breaksincornwall.com/wp-content/uploads/2019/05/front_Jan_2010-Copy-bright-900x600px.jpg)
+}
+
+.itemC {
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-right: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://images1.forrent.com/i2/1zpSWQwDVnd-mQZVCUuBqDtPT_U2fB6EcHMIhsBqGus/117/image.jpg)
+}
+
+.itemC:hover {
+	transition: 1.5s;
+	background-image: url(https://yardsmke.com/wp-content/uploads/2020/12/YARDS-08.jpg)
+}
+
+.itemD {
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-right: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://images1.forrent.com/i2/OAXiSSFDf10lJfnGvNrEePzB5y1MgVdqFuEFHNEXVpI/117/image.jpg)
+}
+
+.itemD:hover {
+
+	transition: 1.5s;
+	background-image: url(https://images.homify.com/c_fill,f_auto,q_0,w_740/v1542124048/p/photo/image/2791392/D-02.jpg)
+}
+
+.itemE {
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-right: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://yardsmke.com/wp-content/uploads/2020/12/YARDS-08.jpg)
+}
+
+.itemE:hover {
+	transition: 1.5s;
+	background-image: url(https://yardsmke.com/wp-content/uploads/2020/12/YARDS-08.jpg)
+}
+
+.itemF {
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-right: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://yardsmke.com/wp-content/uploads/2020/12/YARDS-08.jpg)
+}
+
+.itemF:hover {
+	transition: 1.5s;
+	background-image: url()
+}
+
+.itemG {
+
+	box-shadow: 5px 5px 5px 2px lightgray;
+	display: flex;
+	margin-left: 26%;
+	width: 47%;
+	padding-bottom: 33%;
+	background-size: cover;
+	margin-bottom: 6%;
+	margin-right: 1.25%;
+	position: relative;
+	border-radius: 27px;
+	background-image: url(https://dlq00ggnjruqn.cloudfront.net/prometheus/getImage?id=257031&width=865&height=490);
+
+}
+
+.itemG:hover {
+
+	transition: 2s;
+	background-image: url(https://fb.magicalgetaway.com/wp-content/uploads/2016/05/WG-Lakes-exterior-900x600px.jpg)
 }
 
 
-.item-menu3{
-  box-shadow: 5px 5px 5px 5px rgb(170, 170, 170);
-  margin-top: 0%;
-  display: flex;
-  justify-content: center;
-  background: lightgray;
-  border-radius: 25px;
-  width: 29%;
-  height: 550px;
-  margin-right: 1.25%;
-  
-}
-.item-menu4{
-  
-  box-shadow: 5px 5px 5px 5px rgb(170, 170, 170);
-  margin-top: 0%;
-  display: flex;
-  justify-content: center;
-  background: lightgray;
-  border-radius: 25px;
-  width: 29%;
-  height: 550px;
-  margin-right: 1.25%;
- 
-}
 
-.item-menu4:hover{
-  transform: scale(1.1); 
-  transition: 3s;
-}
+/*det är logan som är i mitten längst upp */
 
-
-
-.Buy{ 
-  transition: all .2s ease-in-out; 
-  text-align: center;
-  margin-bottom: 50%;
-  padding-bottom: 30%;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 900;
-  border-radius: 15px;
-  width: 300%;  
-  border-color:rgb(0, 179, 255)rgb(0, 179, 255);
-}
-
-.Buy:hover{
-  transform: scale(1.1);
-  border-color: black;
-  background: rgb(0, 179, 255);
-  color:white;
-  border-color: black;
- font-size: 100%;
+.LOGO {
+	z-index: -2;
+	width: 500px;
+	margin-top: -200px;
+	margin-left: 500px;
+	height: 500px;
+box-shadow: none;
 
 }
 
-.Sell{ 
-  transition: all .2s ease-in-out; 
-  margin-bottom: 50%;
-  width: 300%;
-  padding-bottom: 30%;
-  font-weight: 900;
-  font-family: 'Times New Roman', Times, serif;
-  border-radius: 15px;
-  border-color:rgb(0, 179, 255)rgb(0, 179, 255);
-}
 
-.Sell:hover{
-  transform: scale(1.1);
-  border-color: black;
-  background: rgb(0, 179, 255);
-  color:white;
-  border-color: black;
- font-size: 100%;
+
+/* min animation för border färg cirkuleringen i index.html*/
+.box {
+  margin-left: 143.5px;
+  z-index: 2;
+  position: absolute;
+  margin-top: -731.5px;
+	width: 405px;
+	height: 405px;
+	border-radius: 10000px;
+	display: grid;
+	place-items: center;
+	overflow: hidden;
 }
 
 
-/* menu buttons appearance*/
-.warning2{
-  transition: all .2s ease-in-out; 
-  margin-top: 343%;
-  border-radius: 15px;
-  border-color:rgb(0, 179, 255)rgb(0, 179, 255);
-  color:rgb(0, 179, 255);
-  height: 10%;
-  width: 169%;
-  font-weight: 900;
-  margin-left: -181%;
-  font-family: 'Times New Roman', Times, serif;
+/* bestämmer den gröna färgens position och hur den ska gå */
+.box::before {
+	content: '';
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	animation: rotate 4s linear infinite;
+	background-image: conic-gradient(transparent, transparent, transparent, rgb(47, 255, 0))
 }
 
+/*samma som förra men för den vita */
+.box::after {
+  z-index: 2;
+	content: '';
+	position: absolute;
+	width: 500px;
+	height: 500px;
 
-.warning3{
-  transition: all .2s ease-in-out; 
-  margin-top: 340%;
-    border-radius: 15px;
-    border-color: rgb(0, 179, 255)rgb(0, 179, 255);
-    color:rgb(0, 179, 255);
-    height: 10%;
-    width: 140%;
-    font-weight: 900;
-    margin-left: -162%;
-    font-family: 'Times New Roman', Times, serif;
+	animation: rotate 4s linear infinite;
+	animation-delay: -2s;
+	background-image: conic-gradient(transparent, transparent, transparent, rgb(255, 255, 255))
   }
 
-  .warning4{
-    transition: all .2s ease-in-out; 
-    margin-top: 334%;
-      border-radius: 15px;
-      border-color:rgb(0, 179, 255)rgb(0, 179, 255);
-      color:rgb(0, 179, 255);
-      height: 10%;
-      width: 157%;
-      font-weight: 900;
-      margin-left: -169%;
-      font-family: 'Times New Roman', Times, serif;
+/* detta är den självaste aniamtion */
+   @keyframes rotate{
+    0%{
+      transform: rotate(0deg);
     }
-/* Button hover appearance*/
-
-.warning2:hover{
-
-  
-  transform: scale(1.1); 
-  background: rgb(0, 179, 255);
-  color:white;
-  border-color: black;
- font-size: 98%;
-}
-
-
-
-.warning3:hover{
-  transform: scale(1.1); 
-  background: rgb(0, 179, 255);
-  color:white;
-  border-color: black;
- font-size: 98%;
-}
-
-.warning4:hover{
-  transform: scale(1.1); 
-  background: rgb(0, 179, 255);
-  color:white;
-  border-color: black;
- font-size: 98%;
-}
-
-.Rent{ 
-  border-color: rgb(0, 179, 255)rgb(0, 179, 255);
-  margin-left: 50%;
-  transition: all .2s ease-in-out; 
-  margin-bottom: 47.5%;
-  width: 250%;
-  padding-bottom: 30%;
-  font-weight: 900;
-  font-family: 'Times New Roman', Times, serif;
-  border-radius: 15px;
-color: rgb(0, 179, 255);
-}
-
-.Rent:hover{
-  transform: scale(1.1);
-  border-color: black;
-  background: rgb(0, 179, 255);
-  color:white;
-  border-color: black;
- font-size: 98%;
-}
-.sell{ 
-  border-color: rgb(0, 179, 255)rgb(0, 179, 255);
-  color: rgb(0, 179, 255);
-  margin-left: -210%;
-  transition: all .2s ease-in-out; 
-  margin-bottom: 53%;
-  width: 250%;
-  padding-bottom: 30%;
-  font-weight: 900;
-  font-family: 'Times New Roman', Times, serif;
-  border-radius: 15px;
-
-}
-
-.sell:hover{
-
-  transform: scale(1.1);
-  border-color: black;
-  background: rgb(0, 179, 255);
-  color:white;
-  border-color: black;
- font-size: 98%;
-}
-
-
-.rent{ 
-  margin-left: 52%;
-  transition: all .2s ease-in-out; 
-  margin-bottom: 51%;
-  width: 250%;
-  padding-bottom: 30%;
-  font-weight: 900;
-  font-family: 'Times New Roman', Times, serif;
-  border-radius: 15px;
-
-}
-
-.rent:hover{
-  transform: scale(1.1);
-  border-color: black;
-  background: rgb(0, 0, 255);
-  color:white;
-  border-color: black;
- font-size: 98%;
-}
-
-
-.buy{ 
-  margin-left: -210%;
-  transition: all .2s ease-in-out; 
-  margin-bottom: 51%;
-  width: 250%;
-  padding-bottom: 30%;
-  font-weight: 900;
-  font-family: 'Times New Roman', Times, serif;
-  border-radius: 15px;
-
-}
-
-.buy:hover{
-  transform: scale(1.1);
-  border-color: black;
-  background: rgb(0, 0, 255);
-  color:white;
-  border-color: black;
- font-size: 98%;
-}
-.item11{
-  border-radius: 14px;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  width: 47%;
-  padding-bottom: 33%;
-  background-size: cover;
-  margin-bottom: 6%;
-  margin-left: 1.25%;
-  position: relative;
-  }
-  .item12{
-  border-radius: 14px;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  width: 47%;
-  padding-bottom: 33%;
-  background-size: cover;
-  margin-bottom: 6%;
-  margin-left: 1.25%;
-  position: relative;
-  }
-
- .item13{
- border-radius: 14px;
- background-color: black;
- display: flex;
- justify-content: center;
- width: 47%;
- padding-bottom: 33%;
- background-size: cover;
- margin-bottom: 6%;
- margin-left: 1.25%;
- position: relative;
- }
-  
- .item14{
- border-radius: 14px;
- background-color: black;
- display: flex;
- justify-content: center;
- width: 47%;
- padding-bottom: 33%;
- background-size: cover;
- margin-bottom: 6%;
- margin-left: 1.25%;
- position: relative;
- }
-
- .wrapper{
-  width: 100%;
- }
-  
- .nav div{
-  height: 4px;
-  background-color: black;
-  margin: 5px 0;
-  border-radius: 100px;
-  transition: 3s;
- }
- .nav{
-  width: 30px;
-  display: block;
-  margin: 1em 0 0 1em;
- }
-  
-
- .one{
- width: 30px;
- }
-  
- .two{
- width: 20px;
- }
-  
- .three{
- width: 25px;
- }
-
-.Logo{
-  text-indent: 9999999px;
-  background: url(logo1.png);
-  width: 900px;
-}
-
-/* Style the navigation bar */
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow:auto;
-}
-
-/* Navbar links */
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  background-color: #000;
-}
-
-/* Current/active navbar link */
-.active {
-  background-color: #04AA6D;
-}
-
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-
-img{
-  border-radius: 9px;
-background-color: lightgray;
-  width: 300px;
-  height: 235px;
-  margin-top: 13%;
-  margin-left: 31%;
-}
-
-
-
-.itemA { 
-  transition: all .2s ease-in-out; 
-  box-shadow: 5px 5px 5px 2px lightgray;
-  display: flex;
-  justify-content: center;
-  width: 47%;
-  padding-bottom: 33%;
-  background-size: cover;
-  margin-bottom: 6%;
-  margin-right: 1.25%;
-  position: relative;
-  border-radius: 27px;
-  background-image: url(https://www.udr.com/globalassets/corporate/homepage/homepage_4_1274towson.jpg)
-  
-  }
-  
-  .itemA:hover{
-    transform: scale(1.1);
-    transition: 2s;
-    background-image: url(https://www.phillyaptrentals.com/wp-content/uploads/2020/12/apartment-building-what-makes-good-apartment-building-scaled.jpg)
-  }
-
-  .itemB {
-    box-shadow: 5px 5px 5px 2px lightgray;
-    display: flex;
-    justify-content: center;
-    width: 47%;
-    padding-bottom: 33%;
-    background-size: cover;
-    margin-bottom: 6%;
-    margin-right: 1.25%;
-    position: relative;
-    border-radius: 27px;
-    background-image: url(https://townsquare.media/site/466/files/2019/01/One-Cardinal-Way-Apartments-Ballpark-Village.jpg?w=980&q=75)
-    
+    100%{
+      transform: rotate(360deg);
     }
-    
-    .itemB:hover{
-      transition: 2s;
-      background-image: url(https://www.breaksincornwall.com/wp-content/uploads/2019/05/front_Jan_2010-Copy-bright-900x600px.jpg)
-    
-    }.itemC { 
-      box-shadow: 5px 5px 5px 2px lightgray;
-      display: flex;
-      justify-content: center;
-      width: 47%;
-      padding-bottom: 33%;
-      background-size: cover;
-      margin-bottom: 6%;
-      margin-right: 1.25%;
-      position: relative;
-      border-radius: 27px;
-      background-image: url(https://images1.forrent.com/i2/1zpSWQwDVnd-mQZVCUuBqDtPT_U2fB6EcHMIhsBqGus/117/image.jpg)
-      
-      }
-      
-      .itemC:hover{
-        transition: 2s;
-        background-image: url(https://yardsmke.com/wp-content/uploads/2020/12/YARDS-08.jpg)
-      }
-      .itemD { 
-        box-shadow: 5px 5px 5px 2px lightgray;
-        display: flex;
-        justify-content: center;
-        width: 47%;
-        padding-bottom: 33%;
-        background-size: cover;
-        margin-bottom: 6%;
-        margin-right: 1.25%;
-        position: relative;
-        border-radius: 27px;
-        background-image: url(https://images1.forrent.com/i2/OAXiSSFDf10lJfnGvNrEePzB5y1MgVdqFuEFHNEXVpI/117/image.jpg)
-        
-        }
-        
-        .itemD:hover{
-    
-          transition: 2s;
-          background-image:url(https://images.homify.com/c_fill,f_auto,q_0,w_740/v1542124048/p/photo/image/2791392/D-02.jpg)
-        }
+   }
 
-        .itemE { 
-          box-shadow: 5px 5px 5px 2px lightgray;
-          display: flex;
-          justify-content: center;
-          width: 47%;
-          padding-bottom: 33%;
-          background-size: cover;
-          margin-bottom: 6%;
-          margin-right: 1.25%;
-          position: relative;
-          border-radius: 27px;
-          background-image: url(https://yardsmke.com/wp-content/uploads/2020/12/YARDS-08.jpg)
-          
-          }
-          
-          .itemE:hover{
-            transition: 2s;
-            background-image: url(https://yardsmke.com/wp-content/uploads/2020/12/YARDS-08.jpg)
-          }
-          .itemF { 
-            box-shadow: 5px 5px 5px 2px lightgray;
-            display: flex;
-            justify-content: center;
-            width: 47%;
-            padding-bottom: 33%;
-            background-size: cover;
-            margin-bottom: 6%;
-            margin-right: 1.25%;
-            position: relative;
-            border-radius: 27px;
-            background-image: url(https://yardsmke.com/wp-content/uploads/2020/12/YARDS-08.jpg)
-            
-            }
-            
-            .itemF:hover{
-              transition: 2s;
-              background-image: url()
-            }
 
-            .itemG {
+   /*hemsidans storelk */
+   html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: auto;
+   }
 
-              box-shadow: 5px 5px 5px 2px lightgray;
-              display: flex;
-              margin-left: 26%;
-              width: 47%;
-              padding-bottom: 33%;
-              background-size: cover;
-              margin-bottom: 6%;
-              margin-right: 1.25%;
-              position: relative;
-              border-radius: 27px;
-              background-image: url(https://dlq00ggnjruqn.cloudfront.net/prometheus/getImage?id=257031&width=865&height=490);
-              
-              }
 
-              .itemG:hover{
-               
-                transition: 2s;
-                background-image: url(https://fb.magicalgetaway.com/wp-content/uploads/2016/05/WG-Lakes-exterior-900x600px.jpg)
-              }
+
+.wrapper{
+	width: 100%;
+
+
+
+   }
+	
+	/* CONTAINERNA Mina tre linjer ligger i */
+   .nav div{
+	height: 5px;
+	background-color: rgb(255, 255, 255);
+	margin: 5px 0;
+	border-radius: 25px;
+	transition: 0.8s;
+	margin-left: -15px;
+   z-index: 25;
+   transition: 0.8s;
+  
+   }
+   /* sjlvaste tre linjerna*/
+   .nav{
+	
+	width: 30px;
+	display: block;
+	margin: 1em 0 0 1em;
+   }
+	
+   /*tre linjerna var för sig */
+   .one{
+
+   width: 30px;
+   }
+	
+   .two{
+
+   width: 20px;
+   }
+	
+   .three{
+	
+   width: 25px;
+   }
+
+ /* "aniamtionen linjerna gör när man pekar på de"*/
+
+   .nav:hover div{
+	width: 30px;
+transform: rotate(180deg);
+   }
+   
+
+   /* Dropdown meny knappen */
+.dropbtn {
+	background-color:transparent;
+	color: transparent;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	margin-top: -80px;
+  }
+  
+  /* containern för dropdown meny */
+  .dropdown {
+	margin-left: 900px;
+	position: absolute;
+	display: inline-block;
+  }
+  
+  /* containerna med länkarna som är gödmda i menynn */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 10px;
+  }
+  
+  /* självaste länkarna */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+
+  }
+  /* färgen av containern som inehåller länkarna */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* containerna med länkars utsende altos hur länkarna ser ut vilket i detta falet är staplade  */
+.dropdown:hover .dropdown-content {display: block;
+margin-top: -35px;}
+
+/*  drop down menyn när den är hovrad*/
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+/*vita backgrund bilden längst nere med info*/
+.info-img{
+	width:1440px ;
+margin-left: 0px;
+height: 400px;
+}
+
+
+/*info1-5 är oliak sorters information*/
+.info1{
+	z-index: 9;
+	background-color: transparent;
+}
+
+.info2{
+	margin-top: -390px;
+	margin-left: 30px; ;
+font-weight: 900;
+text-align: center;
+}
+
+.info3{
+	margin-top: -10px;
+	margin-left: 30px; ;
+font-weight: 900;
+text-align: center;
+}
+
+.info4{
+	margin-top: -10px;
+	margin-left: 30px; ;
+font-weight: 900;
+text-align: center;
+}
+
+.info5{
+	margin-top: -10px;
+	margin-left: 30px; ;
+font-weight: 900;
+text-align: center;
+}
+
+/*app1 och app2 är bilderna som finns längst nere */
+.app1{
+margin-top:-10px;
+margin-left: 400px;
+}
+.App2{
+margin-top:-290px ;
+margin-left: 40px;
+}
+
+
+
+/*mina documentation */
+.title{
+	margin-top: -200px;
+	border-color:  black;
+	color: black;
+	text-align: start;
+}
+
+.title-2{
+	margin-top: -10px;
+	border-color:  black;
+	color: black;
+	text-align: start;
+}
+
+
+.title-4{
+
+	margin-top: -10px;
+	border-color:  black;
+	color: black;
+	text-align: start;
+}
+
+
+
+
+
+.LOGOA{
+	z-index: -2;
+	width: 500px;
+	margin-top: -200px;
+	margin-left: 500px;
+	height: 500px;
+box-shadow: none;
+
+}
