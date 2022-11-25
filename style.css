@@ -332,17 +332,7 @@ position: absolute;
 
 
  /* detta är den runda logans utseden och plasering  */
-.LogoB {
-	z-index: 4;
-	margin-left: 463px;
-	margin-top: 55px;
-	margin-bottom: 0px;
-	height: 70%;
-	width: auto;
-	border-radius: 10000px;
-    box-shadow: none;
 
-}
 
 
 /* knapparnas utsende (index.html)*/
@@ -397,40 +387,6 @@ position: absolute;
 }
 
 /* kanpparna för sälj conatinerna */
-.hide{
-display: none;
-margin-top: 400px;
-width: 300px;
-
-}
-
-.show{
-	transition: 0.2s;
-	position: relative;
-z-index: 25;
-margin-top: 445px;
-margin-left: 1050px;
-display: block;
-border-color: black;
-font-size: 110%;
-border-radius: 15px;
-height: 45px;
-width: 350px;
-border-color: rgb(0, 179, 255)rgb(0, 179, 255);
-color: rgb(0, 179, 255);
-font-family: 'Times New Roman', Times, serif;
-font-weight: 900;
-}
-
-/* sälj knappens hover useende */
-.show:hover{
-transform: scale(1.1);
-border-color: black;
-background: rgb(0, 179, 255);
-color: white;
-border-color: black;
-font-size: 98%;
-}
 
 
 
@@ -705,7 +661,7 @@ box-shadow: none;
   margin-left: 143.5px;
   z-index: 2;
   position: absolute;
-  margin-top: -731.5px;
+  margin-top: -691px;
 	width: 405px;
 	height: 405px;
 	border-radius: 10000px;
@@ -748,7 +704,10 @@ box-shadow: none;
     }
    }
 
-
+.LogoB{
+	width: auto;
+	margin-left: 445px;
+}
    /*hemsidans storelk */
    html, body{
 	width: 100%;
@@ -859,6 +818,7 @@ margin-top: -35px;}
 
 /*vita backgrund bilden längst nere med info*/
 .info-img{
+	margin-top: 550px;
 	width:1440px ;
 margin-left: 0px;
 height: 400px;
@@ -902,11 +862,12 @@ text-align: center;
 /*app1 och app2 är bilderna som finns längst nere */
 .app1{
 margin-top:-10px;
-margin-left: 400px;
+margin-left: 390px;
 }
 .App2{
 margin-top:-290px ;
 margin-left: 40px;
+width: 350px;
 }
 
 
@@ -948,3 +909,5 @@ margin-left: 40px;
 box-shadow: none;
 
 }
+
+

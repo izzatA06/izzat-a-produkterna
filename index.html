@@ -9,13 +9,48 @@
   $(function() {
     $("#visible").click(function() {
       $('#invisible').toggleClass("show");
+      
        });
     });
-
-  
   </script>
 <style>
+  .hide{
+    display: none;
+display: block;
+position: fixed;
+z-index: 30;
+background-color: transparent;
+border-color: transparent;
+  }
+ .show{ 
+  display: block;
+  margin-left: 1050px;
+  position: absolute;
+  margin-top: 415px;
+  border-color: aqua;
+  box-shadow:5px 5px 5px 1px rgb(121, 121, 121);
+       transition: 0.2s;
+       font-size: 110%;
+   border-radius: 15px;
+   height: 45px;
+   width: 350px;
+   border-color: rgb(0, 179, 255)rgb(0, 179, 255);
+   color: rgb(0, 179, 255);
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 900;
+</style>  
+<style>}
+.LogoB {
+	z-index: 4;
+	margin-left: 455px;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	height: 70%;
+	width: auto;
+	border-radius: 10000px;
+    box-shadow: none;
 
+}
 </style>
 
 <style>
@@ -73,16 +108,7 @@
 <body>
 
 
-
-
-
-   
-
-
-
-
-
-   <img src="LogoA.png" class="LOGO"/>
+  <a href="Index.html">img src="LogoA.png" class="LOGO"/></a>
      
 
  
@@ -160,6 +186,7 @@
 <div class="info5"><p class="leftside">Download App On: </p></div>
 <img src="App1.webp" class="app1"/>
 <img src="app2.png" class="App2"/>
+
  </body>
 
 
